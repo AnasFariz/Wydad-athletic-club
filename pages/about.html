@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos | Wydad Athletic Club de Casablanca</title>
+    <meta name="description" content="Découvrez l'histoire et les valeurs du Wydad Athletic Club de Casablanca, l'un des clubs de football les plus prestigieux du Maroc.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../images/logo.png" type="image/png">
+    <style>
+        .page-header {
+            height: 40vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/stadium.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--secondary-color);
+            text-align: center;
+            margin-top: 70px;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .value-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .value-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .member-card {
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+        
+        .member-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .member-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .member-info {
+            padding: 20px;
+        }
+        
+        .member-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        
+        .member-position {
+            color: #777;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .info-section {
+            padding: 80px 0;
+        }
+        
+        .info-section:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Préchargeur -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header et Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="../images/logo.png" alt="Logo du Wydad Athletic Club">
+                    <span>Wydad AC</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../index.html#about">À Propos</a></li>
+                    <li><a href="../index.html#history">Histoire</a></li>
+                    <li><a href="../index.html#gallery">Galerie</a></li>
+                    <li><a href="../index.html#players">Joueurs</a></li>
+                    <li><a href="../index.html#fixtures">Matchs</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>À Propos du Wydad AC</h1>
+            <p>Découvrez l'histoire, les valeurs et la vision d'un des plus grands clubs d'Afrique</p>
+        </div>
+    </section>
+
+    <!-- Section Introduction -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Qui Sommes-Nous</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>Le Wydad Athletic Club, fondé le 8 mai 1937 à Casablanca, est bien plus qu'un simple club de football. C'est une institution sportive qui a marqué l'histoire du football marocain et africain par ses performances et ses valeurs.</p>
+                    <p>À l'origine, le club a été créé par des nationalistes marocains dans un contexte colonial, ce qui en fait un symbole de résistance et d'identité nationale. Le nom "Wydad" signifie "amour" en arabe, reflétant la passion qui anime le club depuis sa création.</p>
+                    <p>Aujourd'hui, le Wydad Athletic Club est reconnu comme l'un des clubs les plus titrés du Maroc et d'Afrique, avec un palmarès impressionnant qui comprend de multiples championnats nationaux, coupes du Maroc, et trophées continentaux, dont trois Ligues des Champions de la CAF.</p>
+                    <p>Le club évolue au Stade Mohammed V de Casablanca, une enceinte mythique qui peut accueillir jusqu'à 45 000 spectateurs et qui a été témoin de nombreux moments historiques du football marocain.</p>
+                </div>
+                <div class="about-image slide-in-right">
+                    <img src="../images/team_full.jpg" alt="Équipe complète du Wydad Athletic Club">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Valeurs -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Valeurs</h2>
+            </div>
+            <div class="values-container">
+                <div class="value-card fade-in">
+                    <h3><i class="fas fa-medal"></i> Excellence</h3>
+                    <p>Le Wydad AC s'efforce constamment d'atteindre l'excellence dans tous les aspects du jeu. Cet engagement envers la qualité et la performance est ancré dans l'ADN du club depuis sa création. Que ce soit sur le terrain ou en dehors, le club vise toujours les plus hauts standards.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3><i class="fas fa-handshake"></i> Respect</h3>
+                    <p>Le respect est fondamental dans notre approche du football. Respect des adversaires, des arbitres, des supporters et de tous les acteurs du jeu. Le Wydad AC promeut un football éthique et respectueux des valeurs sportives.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3><i class="fas fa-users"></i> Unité</h3>
+                    <p>Le club est une grande famille qui unit joueurs, staff technique, dirigeants et millions de supporters à travers le Maroc et le monde. Cette unité est notre force et nous permet de surmonter tous les obstacles.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3><i class="fas fa-history"></i> Tradition</h3>
+                    <p>Riche d'une histoire de plus de 85 ans, le Wydad AC respecte et honore ses traditions tout en regardant vers l'avenir. Le club s'appuie sur son héritage pour construire son futur et continuer à écrire de nouvelles pages glorieuses.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3><i class="fas fa-globe-africa"></i> Engagement communautaire</h3>
+                    <p>Au-delà du football, le Wydad AC est engagé dans de nombreuses actions sociales et caritatives. Le club joue un rôle important dans la communauté casablancaise et marocaine, utilisant le pouvoir du sport pour avoir un impact positif sur la société.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Infrastructures -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Infrastructures</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image slide-in-left">
+                    <img src="../images/stadium_full.jpg" alt="Stade Mohammed V">
+                </div>
+                <div class="about-text fade-in">
+                    <h3>Stade Mohammed V</h3>
+                    <p>Le Wydad Athletic Club joue ses matchs à domicile au stade Mohammed V, un stade emblématique situé au cœur de Casablanca. Avec une capacité de 45 000 spectateurs, cette enceinte est connue pour son ambiance électrique lors des matchs du Wydad.</p>
+                    <p>Récemment rénové, le stade offre des installations modernes tout en préservant son caractère historique. C'est dans ce stade que le Wydad a écrit certaines de ses plus belles pages d'histoire.</p>
+                    
+                    <h3>Centre d'entraînement</h3>
+                    <p>Le club dispose d'un centre d'entraînement de pointe où les joueurs peuvent développer leurs compétences dans des conditions optimales. Ce complexe comprend plusieurs terrains d'entraînement, une salle de musculation, des espaces de récupération et des installations médicales.</p>
+                    
+                    <h3>Académie du Wydad</h3>
+                    <p>L'académie du Wydad est reconnue comme l'une des meilleures du Maroc et d'Afrique. Elle forme les futures stars du club en leur inculquant non seulement les compétences techniques nécessaires, mais aussi les valeurs qui font l'identité du Wydad AC.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipe Dirigeante -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Équipe Dirigeante</h2>
+            </div>
+            <div class="team-members">
+                <div class="member-card">
+                    <img src="../images/president.jpg" alt="Président du club" class="member-image">
+                    <div class="member-info">
+                        <h3>Said Naciri</h3>
+                        <div class="member-position">Président</div>
+                        <p>À la tête du club depuis plusieurs années, il a contribué à de nombreux succès du Wydad, notamment la conquête de titres continentaux.</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="../images/coach.jpg" alt="Entraîneur principal" class="member-image">
+                    <div class="member-info">
+                        <h3>Mehdi Nafti</h3>
+                        <div class="member-position">Entraîneur Principal</div>
+                        <p>Ancien joueur international, il apporte son expérience et sa vision tactique moderne pour mener l'équipe vers de nouveaux succès.</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="../images/director.jpg" alt="Directeur technique" class="member-image">
+                    <div class="member-info">
+                        <h3>Mohamed Benchrifa</h3>
+                        <div class="member-position">Directeur Technique</div>
+                        <p>Responsable de la stratégie sportive globale du club, de la détection des talents et du développement à long terme.</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="../images/manager.jpg" alt="Directeur général" class="member-image">
+                    <div class="member-info">
+                        <h3>Hassan El Filali</h3>
+                        <div class="member-position">Directeur Général</div>
+                        <p>En charge de la gestion quotidienne du club et de la mise en œuvre de la vision stratégique des dirigeants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Partenaires -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Partenaires</h2>
+            </div>
+            <p class="text-center fade-in">Le Wydad Athletic Club est fier de collaborer avec des partenaires prestigieux qui partagent nos valeurs et notre vision. Ces partenariats stratégiques nous permettent de continuer à développer le club et à atteindre nos objectifs sportifs et institutionnels.</p>
+            <div class="partners-container" style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 50px;">
+                <div style="width: 200px; height: 150px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                    <img src="../images/partner1.png" alt="Partenaire 1" style="max-width: 100%; max-height: 100%;">
+                </div>
+                <div style="width: 200px; height: 150px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                    <img src="../images/partner2.png" alt="Partenaire 2" style="max-width: 100%; max-height: 100%;">
+                </div>
+                <div style="width: 200px; height: 150px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                    <img src="../images/partner3.png" alt="Partenaire 3" style="max-width: 100%; max-height: 100%;">
+                </div>
+                <div style="width: 200px; height: 150px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                    <img src="../images/partner4.png" alt="Partenaire 4" style="max-width: 100%; max-height: 100%;">
+                </div>
+                <div style="width: 200px; height: 150px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                    <img src="../images/partner5.png" alt="Partenaire 5" style="max-width: 100%; max-height: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos du Wydad AC</h3>
+                    <p>Le Wydad Athletic Club est l'un des clubs les plus prestigieux du Maroc, fondé en 1937 à Casablanca. Avec un riche héritage et un palmarès impressionnant, le WAC continue d'écrire son histoire glorieuse dans le football africain.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <div class="footer-links">
+                        <a href="../index.html">Accueil</a>
+                        <a href="../index.html#about">À Propos</a>
+                        <a href="../index.html#history">Histoire</a>
+                        <a href="../index.html#gallery">Galerie</a>
+                        <a href="../index.html#players">Joueurs</a>
+                        <a href="../index.html#fixtures">Matchs</a>
+                        <a href="../index.html#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Restez connecté</h3>
+                    <div class="footer-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Wydad Athletic Club. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
