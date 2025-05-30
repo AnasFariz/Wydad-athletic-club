@@ -1,0 +1,28 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <!-- Seringue de gel anti-cafards -->
+  <rect x="150" y="180" width="300" height="40" rx="5" fill="#e67e22"/>
+  <path d="M150 200 h-30 v-20 h30 z" fill="#d35400"/>
+  <path d="M450 200 h30 v-20 h-30 z" fill="#e67e22"/>
+  <path d="M480 180 v40 h10 v-40 z" fill="#d35400"/>
+  
+  <!-- Gel qui sort de l'embout -->
+  <path d="M490 200 q40 -10 60 0" stroke="#f39c12" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Petits cafards morts autour -->
+  <path d="M520 230 l10 10 m0 -10 l-10 10" stroke="#34495e" stroke-width="2"/>
+  <path d="M540 210 l8 8 m0 -8 l-8 8" stroke="#34495e" stroke-width="2"/>
+  <path d="M530 250 l12 12 m0 -12 l-12 12" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Cafard stylisé -->
+  <ellipse cx="180" cy="280" rx="30" ry="15" fill="#34495e"/>
+  <circle cx="160" cy="270" r="8" fill="#34495e"/>
+  <path d="M160 270 l-15 -15 m0 10 l10 -15" stroke="#34495e" stroke-width="2"/>
+  <path d="M190 285 l15 15 m-10 0 l20 5" stroke="#34495e" stroke-width="2"/>
+  <path d="M170 285 l-15 15 m10 0 l-20 5" stroke="#34495e" stroke-width="2"/>
+  <path d="M180 265 l0 -15 m5 15 l10 -20 m-20 20 l-10 -20" stroke="#34495e" stroke-width="2"/>
+  <path d="M200 270 l15 -15 m0 10 l-10 -15" stroke="#34495e" stroke-width="2"/>
+  
+  <text x="300" y="100" font-family="Arial" font-size="24" fill="#d35400" text-anchor="middle">Gel Anti-cafards Pro</text>
+  <text x="300" y="130" font-family="Arial" font-size="18" fill="#34495e" text-anchor="middle">Formule professionnelle</text>
+</svg>

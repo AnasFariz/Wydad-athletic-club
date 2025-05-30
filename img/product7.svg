@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <!-- Piège électrique à insectes -->
+  <rect x="150" y="80" width="300" height="220" rx="5" fill="#34495e"/>
+  <!-- Grille électrique -->
+  <rect x="170" y="100" width="260" height="180" rx="3" fill="#2c3e50"/>
+  <!-- Tubes UV -->
+  <rect x="190" y="120" width="220" height="20" rx="10" fill="#3498db"/>
+  <rect x="190" y="150" width="220" height="20" rx="10" fill="#3498db"/>
+  <rect x="190" y="180" width="220" height="20" rx="10" fill="#3498db"/>
+  <rect x="190" y="210" width="220" height="20" rx="10" fill="#3498db"/>
+  <!-- Plateau de récupération -->
+  <rect x="170" y="250" width="260" height="30" rx="3" fill="#7f8c8d"/>
+  
+  <!-- Petites insectes (symboliques) -->
+  <circle cx="450" cy="70" r="5" fill="#2c3e50"/>
+  <path d="M450 70 l8 -8 m-16 0 l8 8 m0 0 l0 -12" stroke="#2c3e50" stroke-width="1"/>
+  
+  <circle cx="150" cy="90" r="4" fill="#2c3e50"/>
+  <path d="M150 90 l6 -6 m-12 0 l6 6 m0 0 l0 -10" stroke="#2c3e50" stroke-width="1"/>
+  
+  <text x="300" y="330" font-family="Arial" font-size="24" fill="#34495e" text-anchor="middle">Piège Électrique</text>
+  <text x="300" y="360" font-family="Arial" font-size="18" fill="#34495e" text-anchor="middle">Pour insectes volants</text>
+</svg>

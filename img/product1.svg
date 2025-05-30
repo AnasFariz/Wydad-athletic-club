@@ -1,0 +1,8 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <rect x="150" y="80" width="300" height="240" rx="20" fill="#3498db"/>
+  <rect x="210" y="140" width="180" height="180" rx="10" fill="#2980b9"/>
+  <path d="M210 140 h180 v120 a10 10 0 0 1 -10 10 h-160 a10 10 0 0 1 -10 -10 z" fill="#fff" fill-opacity="0.3"/>
+  <text x="300" y="215" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Nettoyant</text>
+  <text x="300" y="245" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Multi-surfaces</text>
+</svg>

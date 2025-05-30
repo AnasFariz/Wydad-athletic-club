@@ -3,459 +3,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wydad Athletic Club de Casablanca</title>
-    <meta name="description" content="Site officiel du Wydad Athletic Club de Casablanca, l'un des clubs de football les plus prestigieux du Maroc.">
+    <title>SOCIETE MAJESTIC HYGIENE S.A.R.L - Produits d'hygiène professionnels</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <meta name="description" content="SOCIETE MAJESTIC HYGIENE S.A.R.L - Votre partenaire pour des solutions d'hygiène professionnelles de haute qualité">
 </head>
 <body>
-    <!-- Préchargeur -->
-    <div class="preloader">
-        <div class="loader"></div>
-    </div>
-
-    <!-- Header et Navigation -->
+    <!-- En-tête -->
     <header>
         <div class="container">
+            <div class="logo">
+                <a href="#accueil">
+                    <img src="img/logo.svg" alt="Logo Magistic D'hygiène" class="logo-img">
+                    <div class="logo-text">
+                        <h1>MAJESTIC HYGIENE</h1>
+                        <p class="slogan">S.A.R.L - Votre partenaire pour une hygiène parfaite</p>
+                    </div>
+                </a>
+            </div>
             <nav>
-                <div class="logo">
-                    <img src="images/logo.png" alt="Logo du Wydad Athletic Club">
-                    <span>Wydad AC</span>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#about">À Propos</a></li>
-                    <li><a href="#history">Histoire</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#players">Joueurs</a></li>
-                    <li><a href="#fixtures">Matchs</a></li>
+                <ul>
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#produits">Nos Produits</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
             </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
 
-    <!-- Section Hero -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Wydad Athletic Club</h1>
-            <p>Le club le plus titré du Maroc, fondé en 1937. Champions d'Afrique et fierté de Casablanca.</p>
-            <a href="#about" class="btn">Découvrir</a>
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Des solutions d'hygiène professionnelles</h2>
+                <p>Découvrez notre gamme complète de produits d'hygiène de haute qualité pour tous vos besoins professionnels.</p>
+                <div class="hero-buttons">
+                    <a href="#produits" class="btn">Découvrir nos produits</a>
+                    <a href="#contact" class="btn btn-outline">Nous contacter</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Section À Propos -->
-    <section id="about" class="about">
+    <!-- Section des produits -->
+    <section id="produits" class="products">
         <div class="container">
-            <div class="section-title">
-                <h2>À Propos du Club</h2>
+            <h2 class="section-title">Nos Produits</h2>
+            <p class="section-desc">Solutions professionnelles anti-insectes de haute qualité pour éliminer efficacement tous types de nuisibles.</p>
+            
+            <div class="product-grid">
+                <!-- Produit 1 (Insecticide) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product5.svg" alt="Insecticide professionnel">
+                    </div>
+                    <div class="product-info">
+                        <h3>Insecticide Professionnel</h3>
+                        <p>Solution puissante pour éliminer tous types d'insectes nuisibles dans les espaces professionnels.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Action rapide</span>
+                            <span><i class="fas fa-check"></i> Rémanent</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Produit 2 (Spray Anti-insectes) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product6.svg" alt="Spray anti-insectes">
+                    </div>
+                    <div class="product-info">
+                        <h3>Spray Anti-insectes</h3>
+                        <p>Spray prêt à l'emploi contre les insectes rampants et volants, idéal pour les bureaux et commerces.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Effet longue durée</span>
+                            <span><i class="fas fa-check"></i> Sans odeur</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Produit 3 (Piège à insectes) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product7.svg" alt="Piège à insectes électrique">
+                    </div>
+                    <div class="product-info">
+                        <h3>Piège Électrique</h3>
+                        <p>Piège à insectes volants avec lampe UV, efficace pour les restaurants et cuisines professionnelles.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Écologique</span>
+                            <span><i class="fas fa-check"></i> Grande surface</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Produit 4 (Fumigène insecticide) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product8.svg" alt="Fumigène insecticide">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fumigène Total</h3>
+                        <p>Solution de fumigation pour traitement complet des locaux professionnels contre tous insectes.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Traitement total</span>
+                            <span><i class="fas fa-check"></i> Efficacité rapide</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Produit 5 (Gel anti-cafards) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product9.svg" alt="Gel anti-cafards professionnel">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gel Anti-cafards Pro</h3>
+                        <p>Gel professionnel contre les cafards et blattes, idéal pour les cuisines et restaurants.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Effet domino</span>
+                            <span><i class="fas fa-check"></i> Discret</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Produit 6 (Kit dératisation) -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/product10.svg" alt="Kit de dératisation professionnel">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kit Dératisation Pro</h3>
+                        <p>Solution complète pour le traitement des rongeurs dans les locaux commerciaux et industriels.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Kit complet</span>
+                            <span><i class="fas fa-check"></i> Sécurisé</span>
+                        </div>
+                        <a href="#contact" class="btn btn-product">Commander via WhatsApp</a>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="about">
+        <div class="container">
             <div class="about-content">
-                <div class="about-text fade-in">
-                    <h3>L'histoire d'une légende</h3>
-                    <p>Le Wydad Athletic Club, communément appelé WAC, est l'un des clubs de football les plus prestigieux du Maroc et d'Afrique. Fondé le 8 mai 1937 à Casablanca, le club évolue au Stade Mohammed V et porte fièrement les couleurs rouge et blanche.</p>
-                    <p>Le Wydad a remporté de nombreux titres nationaux et internationaux, dont la Ligue des Champions de la CAF, la Supercoupe d'Afrique, et de multiples championnats et coupes du Maroc.</p>
-                    <p>Surnommé "Les Rouges" ou "Wydadis", le club est connu pour sa passion, sa détermination et son engagement envers l'excellence sportive. Avec un palmarès impressionnant et une base de supporters fidèles, le Wydad Athletic Club continue d'écrire son histoire glorieuse dans le football africain.</p>
-                    <a href="pages/about.html" class="btn">En savoir plus</a>
+                <div class="about-text">
+                    <h2 class="section-title">À Propos de MAJESTIC HYGIENE</h2>
+                    <p>SOCIETE MAJESTIC HYGIENE S.A.R.L est une entreprise spécialisée exclusivement dans la fourniture de solutions anti-insectes et de dératisation professionnelles. Nous servons des clients dans divers secteurs depuis de nombreuses années.</p>
+                    <p>Notre mission est d'offrir des produits et services efficaces pour éliminer tous types de nuisibles tout en respectant l'environnement et les normes de sécurité les plus strictes.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-bug"></i>
+                            <h3>Expertise Anti-nuisibles</h3>
+                            <p>Solutions spécialisées contre tous types d'insectes et rongeurs nuisibles.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Efficacité Garantie</h3>
+                            <p>Des produits professionnels testés et approuvés avec résultats visibles rapidement.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-building"></i>
+                            <h3>Solutions Professionnelles</h3>
+                            <p>Produits adaptés aux besoins spécifiques des entreprises et commerces.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-image slide-in-right">
-                    <img src="images/team.jpg" alt="Équipe du Wydad Athletic Club">
+                <div class="about-image">
+                    <img src="img/about.svg" alt="Magistic D'hygiène équipe">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Histoire -->
-    <section id="history" class="history">
+    <!-- Section Témoignages -->
+    <section id="temoignages" class="testimonials">
         <div class="container">
-            <div class="section-title">
-                <h2>Notre Histoire</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-year">1937</span>
-                        <h3>Fondation</h3>
-                        <p>Création du Wydad Athletic Club le 8 mai 1937 à Casablanca par un groupe de nationalistes marocains.</p>
+            <h2 class="section-title">Ce que disent nos clients</h2>
+            <p class="section-desc">Découvrez ce que nos clients professionnels pensent de nos solutions anti-insectes.</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <!-- Témoignage 1 -->
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Les solutions anti-insectes de MAJESTIC HYGIENE ont éliminé efficacement notre problème de nuisibles. En une semaine seulement, nous n'avions plus aucun insecte dans notre restaurant.</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Jean Dupont</h4>
+                                    <p>Gérant de restaurant - Paris</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Témoignage 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>En tant qu'hôtel, nous avions un problème récurrent de nuisibles. Les produits anti-insectes de MAJESTIC HYGIENE nous ont permis de résoudre ce problème de manière durable et sans danger pour nos clients.</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Marie Lambert</h4>
+                                    <p>Directrice d'hôtel - Lyon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Témoignage 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Le traitement par fumigène de MAJESTIC HYGIENE a éliminé tous les insectes de notre entrepôt alimentaire. Les produits sont efficaces et conformes aux normes d'hygiène les plus strictes. Je recommande vivement cette entreprise !</p>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sophie Martin</h4>
+                                    <p>Responsable d'entrepôt alimentaire - Marseille</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="timeline-item right">
-                    <div class="timeline-content">
-                        <span class="timeline-year">1948</span>
-                        <h3>Premier titre</h3>
-                        <p>Le Wydad remporte son premier championnat du Maroc.</p>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
                     </div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
                 </div>
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-year">1992</span>
-                        <h3>Première Ligue des Champions</h3>
-                        <p>Le WAC remporte sa première Ligue des Champions d'Afrique contre Al Ahly.</p>
-                    </div>
-                </div>
-                <div class="timeline-item right">
-                    <div class="timeline-content">
-                        <span class="timeline-year">2017</span>
-                        <h3>Retour au sommet</h3>
-                        <p>Le Wydad remporte sa deuxième Ligue des Champions d'Afrique.</p>
-                    </div>
-                </div>
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <span class="timeline-year">2022</span>
-                        <h3>Troisième étoile</h3>
-                        <p>Le club remporte sa troisième Ligue des Champions et confirme son statut de géant africain.</p>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="pages/history.html" class="btn">Histoire complète</a>
             </div>
         </div>
     </section>
 
-    <!-- Section Statistiques -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-container">
-                <div class="stat-item">
-                    <div class="number" data-value="22">0</div>
-                    <div class="text">Championnats</div>
-                </div>
-                <div class="stat-item">
-                    <div class="number" data-value="9">0</div>
-                    <div class="text">Coupes du Maroc</div>
-                </div>
-                <div class="stat-item">
-                    <div class="number" data-value="3">0</div>
-                    <div class="text">Ligues des Champions</div>
-                </div>
-                <div class="stat-item">
-                    <div class="number" data-value="1937">0</div>
-                    <div class="text">Année de fondation</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Galerie -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <div class="section-title">
-                <h2>Galerie</h2>
-            </div>
-            <div class="gallery-container">
-                <div class="gallery-item">
-                    <img src="images/gallery1.jpg" alt="Célébration d'un titre">
-                    <div class="gallery-overlay">
-                        <h3>Célébration du titre</h3>
-                        <p>Ligue des Champions 2022</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery2.jpg" alt="Match à domicile">
-                    <div class="gallery-overlay">
-                        <h3>Match à domicile</h3>
-                        <p>Stade Mohammed V</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery3.jpg" alt="Supporters du Wydad">
-                    <div class="gallery-overlay">
-                        <h3>Supporters passionnés</h3>
-                        <p>Les Ultras Winners</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery4.jpg" alt="Entraînement">
-                    <div class="gallery-overlay">
-                        <h3>Séance d'entraînement</h3>
-                        <p>Préparation physique</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery5.jpg" alt="Historique du club">
-                    <div class="gallery-overlay">
-                        <h3>Trophées historiques</h3>
-                        <p>Salle des trophées</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery6.jpg" alt="Derby casablancais">
-                    <div class="gallery-overlay">
-                        <h3>Derby casablancais</h3>
-                        <p>WAC vs Raja</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery7.jpg" alt="Joueurs légendaires">
-                    <div class="gallery-overlay">
-                        <h3>Légendes du club</h3>
-                        <p>Joueurs emblématiques</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery8.jpg" alt="Supporters internationaux">
-                    <div class="gallery-overlay">
-                        <h3>Supporters internationaux</h3>
-                        <p>L'amour du club à travers le monde</p>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="pages/gallery.html" class="btn">Voir plus</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Modal pour Galerie -->
-    <div class="modal">
-        <span class="modal-close">&times;</span>
-        <img class="modal-content" src="" alt="Image agrandie">
-    </div>
-
-    <!-- Section Joueurs -->
-    <section id="players" class="players">
-        <div class="container">
-            <div class="section-title">
-                <h2>Nos Joueurs</h2>
-            </div>
-            <div class="players-container">
-                <div class="player-card">
-                    <img src="images/player1.jpg" alt="Joueur 1" class="player-image">
-                    <div class="player-info">
-                        <h3>Yahya Jabrane</h3>
-                        <div class="position">Milieu de terrain</div>
-                        <p>Capitaine et maître à jouer du Wydad, connu pour sa vision du jeu et son leadership sur le terrain.</p>
-                        <div class="player-stats">
-                            <div class="player-stat">
-                                <div class="value">8</div>
-                                <div class="label">Buts</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">12</div>
-                                <div class="label">Passes</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">27</div>
-                                <div class="label">Matchs</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="player-card">
-                    <img src="images/player2.jpg" alt="Joueur 2" class="player-image">
-                    <div class="player-info">
-                        <h3>Ayoub El Amloud</h3>
-                        <div class="position">Défenseur</div>
-                        <p>Pilier de la défense du Wydad, connu pour son sens du placement et sa capacité à relancer proprement.</p>
-                        <div class="player-stats">
-                            <div class="player-stat">
-                                <div class="value">2</div>
-                                <div class="label">Buts</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">3</div>
-                                <div class="label">Passes</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">30</div>
-                                <div class="label">Matchs</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="player-card">
-                    <img src="images/player3.jpg" alt="Joueur 3" class="player-image">
-                    <div class="player-info">
-                        <h3>Zouhair El Moutaraji</h3>
-                        <div class="position">Attaquant</div>
-                        <p>Buteur prolifique et héros de la finale de la Ligue des Champions 2022 avec son doublé décisif.</p>
-                        <div class="player-stats">
-                            <div class="player-stat">
-                                <div class="value">15</div>
-                                <div class="label">Buts</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">7</div>
-                                <div class="label">Passes</div>
-                            </div>
-                            <div class="player-stat">
-                                <div class="value">28</div>
-                                <div class="label">Matchs</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="pages/players.html" class="btn">Tous les joueurs</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Matchs -->
-    <section id="fixtures" class="fixtures">
-        <div class="container">
-            <div class="section-title">
-                <h2>Prochains Matchs</h2>
-            </div>
-            <div class="fixtures-container">
-                <div class="fixture-item">
-                    <div class="fixture-date">Dim, 6 Juin 2025 - 20:00</div>
-                    <div class="fixture-teams">
-                        <div class="team">
-                            <img src="images/logo.png" alt="Wydad AC">
-                            <span>Wydad AC</span>
-                        </div>
-                        <div class="vs">VS</div>
-                        <div class="team">
-                            <img src="images/raja.png" alt="Raja CA">
-                            <span>Raja CA</span>
-                        </div>
-                    </div>
-                    <div class="fixture-venue">Stade Mohammed V, Casablanca</div>
-                </div>
-
-                <div class="fixture-item">
-                    <div class="fixture-date">Sam, 12 Juin 2025 - 18:30</div>
-                    <div class="fixture-teams">
-                        <div class="team">
-                            <img src="images/FAR.png" alt="FAR Rabat">
-                            <span>FAR Rabat</span>
-                        </div>
-                        <div class="vs">VS</div>
-                        <div class="team">
-                            <img src="images/logo.png" alt="Wydad AC">
-                            <span>Wydad AC</span>
-                        </div>
-                    </div>
-                    <div class="fixture-venue">Stade Moulay Abdellah, Rabat</div>
-                </div>
-
-                <div class="fixture-item">
-                    <div class="fixture-date">Mer, 16 Juin 2025 - 20:00</div>
-                    <div class="fixture-teams">
-                        <div class="team">
-                            <img src="images/logo.png" alt="Wydad AC">
-                            <span>Wydad AC</span>
-                        </div>
-                        <div class="vs">VS</div>
-                        <div class="team">
-                            <img src="images/Al Ahly.png" alt="Al Ahly">
-                            <span>Al Ahly</span>
-                        </div>
-                    </div>
-                    <div class="fixture-venue">Stade Mohammed V, Casablanca</div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="pages/fixtures.html" class="btn">Calendrier complet</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Contact -->
+    <!-- Section de contact -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-title">
-                <h2>Contactez-nous</h2>
-            </div>
-            <div class="contact-container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <p class="section-desc">Intéressé par nos produits? Contactez-nous directement via WhatsApp pour commander ou poser vos questions.</p>
+            
+            <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Informations de contact</h3>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Stade Mohammed V, Casablanca, Maroc</p>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>123 Avenue de l'Hygiène, 75000 Paris, France</p>
+                        </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+212 522 XXXXXXX</p>
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+33 1 23 45 67 89</p>
+                        </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <p>contact@wydad-ac.com</p>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@majestichygiene.com</p>
+                        </div>
                     </div>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <div class="contact-item whatsapp-contact">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>Commander via WhatsApp</h3>
+                            <p>Pour commander nos produits, contactez-nous directement via WhatsApp</p>
+                            <a href="https://wa.me/33123456789" class="btn btn-whatsapp" id="whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Commander par WhatsApp
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Sujet</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Envoyer</button>
-                </form>
+                <div class="contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Pied de page -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>À propos du Wydad AC</h3>
-                    <p>Le Wydad Athletic Club est l'un des clubs les plus prestigieux du Maroc, fondé en 1937 à Casablanca. Avec un riche héritage et un palmarès impressionnant, le WAC continue d'écrire son histoire glorieuse dans le football africain.</p>
+                <div class="footer-logo">
+                    <h2>MAJESTIC HYGIENE</h2>
+                    <p>S.A.R.L - Votre partenaire pour une hygiène parfaite</p>
                 </div>
-                <div class="footer-section">
-                    <h3>Liens rapides</h3>
-                    <div class="footer-links">
-                        <a href="#home">Accueil</a>
-                        <a href="#about">À Propos</a>
-                        <a href="#history">Histoire</a>
-                        <a href="#gallery">Galerie</a>
-                        <a href="#players">Joueurs</a>
-                        <a href="#fixtures">Matchs</a>
-                        <a href="#contact">Contact</a>
-                    </div>
+                <div class="footer-links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Nos Produits</a></li>
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="footer-section">
-                    <h3>Restez connecté</h3>
-                    <div class="footer-links">
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">YouTube</a>
+                <div class="footer-social">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2025 Wydad Athletic Club Tous droits réservés.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SOCIETE MAJESTIC HYGIENE S.A.R.L. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Bouton retour en haut -->
-    <div class="scroll-top">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

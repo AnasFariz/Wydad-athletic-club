@@ -1,0 +1,9 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <rect x="200" y="80" width="200" height="240" rx="5" fill="#f39c12"/>
+  <path d="M200 190 q0 -20 20 -20 h160 q20 0 20 20 v130 h-200 z" fill="#e67e22"/>
+  <rect x="230" y="100" width="140" height="80" rx="10" fill="#f1c40f"/>
+  <path d="M300 210 m-50,0 a50,30 0 1,0 100,0 a50,30 0 1,0 -100,0" fill="#ffffff" fill-opacity="0.3"/>
+  <text x="300" y="215" font-family="Arial" font-size="22" fill="white" text-anchor="middle">Savon Mains</text>
+  <text x="300" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Professionnel</text>
+</svg>
